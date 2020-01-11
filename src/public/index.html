@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>photoSharing</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="header__header">
+          <span class="header__sub-header_color">Photo</span>Cage app
+        </h1>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <i class="fas fa-images"></i>
+                Gallery
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <i class="fas fa-address-card"></i>
+                Members
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">
+                <i class="fas fa-sign-out-alt"></i>
+                Logout
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="upload">
+          <h2>
+            Please select an images from your computer
+          </h2>
+          <form class="search">
+            <div class="search__field">
+              <input type="text" class="search__text">
+              <label class="search__label" for="input-file">Browse</label>
+              <input class="search__file" id="input-file" type="file">
+            </div>
+            <button class="search__button">Upload image</button>
+          </form>
+        </section>
+        <section class="cards">
+          <article class="card"></article>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
