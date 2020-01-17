@@ -7,6 +7,7 @@
   display: grid;
   grid-auto-rows: minmax(70px, auto) 1fr 70px;
   /*grid-auto-rows: 70px 1fr 70px;*/
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .header {
@@ -20,6 +21,8 @@
     
   &__header {
     margin: 0;
+    
+    font-family: 'IM Fell Great Primer SC', serif;
 
     align-self: center;
     justify-self: center;
