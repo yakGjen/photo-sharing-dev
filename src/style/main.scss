@@ -1,4 +1,5 @@
 $orange-color: #ff7700;
+$color-text: #b4b1b1;
 $medium-card-text: 80%;
 $small-card-text: 70%;
 
@@ -129,7 +130,7 @@ $small-card-text: 70%;
   padding: 5px;
   box-sizing: border-box;
   
-  box-shadow: 0 0 3px 2px #e0dfdf;
+  box-shadow: 0 0 3px 2px $color-text;
   
   
   @media (max-width: 1300px) {
@@ -154,6 +155,7 @@ $small-card-text: 70%;
     grid-area: text;
     justify-self: start;
     font-size: $medium-card-text;
+    color: $color-text;
     
     @media (max-width: 900px) {
       font-size: $small-card-text;
@@ -187,12 +189,13 @@ $small-card-text: 70%;
     
     width: 100%;
     height: 1px;
-    background: #e0dfdf;
+    background: $color-text;
   }
   
   &__share-text {
     grid-area: share-text;
     font-size: $medium-card-text;
+    color: $color-text;
     
     @media (max-width: 900px) {
       font-size: $small-card-text;
@@ -236,4 +239,14 @@ $small-card-text: 70%;
   &__pinterest {
     grid-area: pinterest;
   }
+}
+
+.footer {
+  justify-self: center;
+  align-self: center;
+  
+  padding: 0 20px;
+  text-align: center;
+  
+  color: $color-text;
 }
