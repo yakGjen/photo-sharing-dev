@@ -5,7 +5,7 @@
   uploadButton.addEventListener('click', (event) => {
     event.preventDefault();
     event.target.blur();
-    alert('Data was uploaded');
+    alert('Data have been uploaded');
   });
   
 })();
