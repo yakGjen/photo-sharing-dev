@@ -217,7 +217,7 @@ $small-card-text: 70%;
     grid-template-columns: repeat(2, 1fr);
   }
   
-  @media (max-width: 360px) {
+  @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
 }
@@ -253,7 +253,7 @@ $small-card-text: 70%;
     width: 150px;
   }
   
-  @media (max-width: 360px) {
+  @media (max-width: 420px) {
     width: 250px;
   }
   
